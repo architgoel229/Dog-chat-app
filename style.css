@@ -1,0 +1,258 @@
+@import url('https://fonts.googleapis.com/css2?family=Rubik:ital,wght@0,300..900;1,300..900&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "rubik";
+}
+
+.bg-style{
+    position: absolute;
+    z-index: -1;
+    right: 70vw;
+    height: 95vh;
+    width: 600px;
+    background: linear-gradient(225deg, hsl(293, 100%, 63%),hsl(264, 100%, 61%));
+    border-radius: 0 0 300px 300px;
+}
+
+main{
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    /* overflow: hidden; */
+}
+
+.mobile{
+    position: relative;
+    height: 560px;
+    width: 315px;
+    background-color: white;
+    border-radius: 30px;
+    padding: 10px;
+    box-shadow: 0 0 7px 0px;
+}
+
+.notch{
+    background-color: white;
+    position:absolute;
+    /* transform: translateX(72.5px); */
+    left: 25%;
+    border-radius: 0 0 20px 20px;
+    height: 30px;
+    width: 50%;
+    border:none;
+}
+
+.screen{
+    width: 100%;
+    height: 100%;
+    background-color: hsl(270, 20%, 96%);
+    border-radius: 30px;
+    color: white;
+}
+
+.status-bar{
+    /* height: 20%; */
+    width: 100%;
+    background: linear-gradient(225deg, hsl(293, 100%, 63%),hsl(264, 100%, 61%));
+    border-radius: 30px 30px 10px 10px;
+    box-shadow: 0 10px 10px -10px black;
+}
+
+.info{
+    padding: 35px 10px 10px 10px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.left{
+    display: flex;
+    align-items: center;
+}
+
+.profile{
+    padding: 2px;
+    background-color: #fff;
+    border-radius: 50px;    
+    height: 45px;
+}
+
+.profile img{
+    height: 42px;
+    border-radius: 50px;
+}
+
+.name{
+    margin-left: 10px;
+}
+
+.name p{
+    color:hsl(276, 100%, 81%);
+    font-size: 0.85rem;
+}
+
+.chat{
+    color: black;
+    font-size: 0.8rem;
+}
+
+.incoming1{
+    width: 80%;
+}
+
+.i1, .i2{
+    margin: 5px;
+    padding: 5px;
+    border-radius: 15px 15px 15px 2px;
+    color: hsl(276, 55%, 52%);
+    background-color: rgb(237,228,245);
+}
+
+.images{
+    display: flex;
+    justify-content: flex-end;
+}
+
+.images img{
+    height: 50px;
+    margin:5px;
+    border-radius: 10px;
+}
+
+.outgoing1{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    /* justify-content: right; */
+    align-items: end;
+}
+
+.outgoing1-pseudo{
+    width: 80%;
+    display: flex;
+    flex-direction: column;
+    /* justify-content: right; */
+    align-items: end;
+}
+
+.o1, .o2{
+    margin: 5px;
+    padding: 5px;
+    border-radius: 15px 15px 2px 15px;
+    color: black;
+    background-color: white;
+}
+
+.option1{
+    color: #fff;
+    margin: 5px;
+    padding: 13px;
+    border-radius: 15px;
+    display: flex;
+    justify-content: space-between;
+    background: linear-gradient(45deg, hsl(293, 100%, 63%),hsl(264, 100%, 61%));
+}
+
+.option1 .det{
+    display: flex;
+    gap:10px;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.det input{
+    accent-color: hsl(293, 100%, 63%);    
+    border: 1px solid hsl(289, 100%, 72%);
+}
+
+.price{
+    font-weight: 700;
+    font-size:1.05rem;
+}
+
+.type{
+    width: 95%;
+    margin: 6px auto;
+    border-radius: 25px;
+    background-color: #fff;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: nowrap;
+    padding: 3px;
+}
+
+.type input{
+    height: 100%;
+    width: 100%;
+    /* font-size: 1rem; */
+    border-radius: 15px;
+    border: none;
+    outline: none;
+    padding: 5px 10px;
+    
+}
+
+.type input::placeholder{
+    color: hsl(206, 6%, 79%);
+}
+
+.type button{
+    height: 30px;
+    width: 30px;
+    padding: 3px;
+    border-radius: 15px;
+    border: none;
+    background-color: hsl(271, 36%, 24%);
+    color: white;
+}
+
+.type button span{
+    padding: 0;
+}
+
+.text{
+    width: 500px;
+}
+
+.content{
+    margin: 20px 5vw;
+}
+
+h1{
+    margin: 25px 0px;
+    color:hsl(271, 36%, 24%);
+}
+
+.para{
+    font-size: 16px;
+    line-height: 2;
+    color:hsl(270, 7%, 64%);
+}
+
+.bg-style2{
+    position: absolute;
+    z-index: -10;
+    right: 0;
+    bottom: 0;
+    height: 95vh;
+    width: 600px;
+    background-color: hsl(270, 20%, 96%);
+    /* background: linear-gradient(225deg, hsl(293, 100%, 63%),hsl(264, 100%, 61%)); */
+    border-radius: 300px 300px 0 0;
+}
+
+@media only screen and (max-width:1018px){
+    .bg-style{
+        height: 60vh;
+        right:50vw
+    }
+    .bg-style2{
+        display: none;
+    }
+}
